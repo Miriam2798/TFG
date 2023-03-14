@@ -1,0 +1,239 @@
+{
+    "os": "Linux-4.15.0-143-generic-x86_64-with-glibc2.27",
+    "python": "3.9.12",
+    "heartbeatAt": "2023-01-18T17:24:03.421465",
+    "startedAt": "2023-01-18T17:24:02.793449",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/mnt/gpid07/imatge/miriam.elbaz/workspace/training.py",
+    "codePath": "training.py",
+    "host": "gpic13",
+    "username": "miriam.elbaz",
+    "executable": "/imatge/miriam.elbaz/venv/TFG/bin/python",
+    "cpu_count": 20,
+    "cpu_count_logical": 40,
+    "cpu_freq": {
+        "current": 1993.0294999999999,
+        "min": 1000.0,
+        "max": 2401.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1515.91,
+            "min": 1000.0,
+            "max": 2401.0
+        },
+        {
+            "current": 2897.302,
+            "min": 1000.0,
+            "max": 2401.0
+        },
+        {
+            "current": 2341.042,
+            "min": 1000.0,
+            "max": 2401.0
+        },
+        {
+            "current": 2900.0,
+            "min": 1000.0,
+            "max": 2401.0
+        },
+        {
+            "current": 1000.11,
+            "min": 1000.0,
+            "max": 2401.0
+        },
+        {
+            "current": 2900.0,
+            "min": 1000.0,
+            "max": 2401.0
+        },
+        {
+            "current": 2559.489,
+            "min": 1000.0,
+            "max": 2401.0
+        },
+        {
+            "current": 2900.15,
+            "min": 1000.0,
+            "max": 2401.0
+        },
+        {
+            "current": 2901.612,
+            "min": 1000.0,
+            "max": 2401.0
+        },
+        {
+            "current": 2203.777,
+            "min": 1000.0,
+            "max": 2401.0
+        },
+        {
+            "current": 1000.076,
+            "min": 1000.0,
+            "max": 2401.0
+        },
+        {
+            "current": 2946.418,
+            "min": 1000.0,
+            "max": 2401.0
+        },
+        {
+            "current": 2964.123,
+            "min": 1000.0,
+            "max": 2401.0
+        },
+        {
+            "current": 2270.393,
+            "min": 1000.0,
+            "max": 2401.0
+        },
+        {
+            "current": 1019.039,
+            "min": 1000.0,
+            "max": 2401.0
+        },
+        {
+            "current": 1529.259,
+            "min": 1000.0,
+            "max": 2401.0
+        },
+        {
+            "current": 1000.47,
+            "min": 1000.0,
+            "max": 2401.0
+        },
+        {
+            "current": 1000.681,
+            "min": 1000.0,
+            "max": 2401.0
+        },
+        {
+            "current": 1000.846,
+            "min": 1000.0,
+            "max": 2401.0
+        },
+        {
+            "current": 1000.542,
+            "min": 1000.0,
+            "max": 2401.0
+        },
+        {
+            "current": 1564.731,
+            "min": 1000.0,
+            "max": 2401.0
+        },
+        {
+            "current": 2900.002,
+            "min": 1000.0,
+            "max": 2401.0
+        },
+        {
+            "current": 1506.12,
+            "min": 1000.0,
+            "max": 2401.0
+        },
+        {
+            "current": 2901.141,
+            "min": 1000.0,
+            "max": 2401.0
+        },
+        {
+            "current": 1001.244,
+            "min": 1000.0,
+            "max": 2401.0
+        },
+        {
+            "current": 2903.277,
+            "min": 1000.0,
+            "max": 2401.0
+        },
+        {
+            "current": 2549.858,
+            "min": 1000.0,
+            "max": 2401.0
+        },
+        {
+            "current": 2900.0,
+            "min": 1000.0,
+            "max": 2401.0
+        },
+        {
+            "current": 2900.0,
+            "min": 1000.0,
+            "max": 2401.0
+        },
+        {
+            "current": 1644.649,
+            "min": 1000.0,
+            "max": 2401.0
+        },
+        {
+            "current": 1001.367,
+            "min": 1000.0,
+            "max": 2401.0
+        },
+        {
+            "current": 2970.696,
+            "min": 1000.0,
+            "max": 2401.0
+        },
+        {
+            "current": 2995.966,
+            "min": 1000.0,
+            "max": 2401.0
+        },
+        {
+            "current": 2128.785,
+            "min": 1000.0,
+            "max": 2401.0
+        },
+        {
+            "current": 1507.69,
+            "min": 1000.0,
+            "max": 2401.0
+        },
+        {
+            "current": 1595.429,
+            "min": 1000.0,
+            "max": 2401.0
+        },
+        {
+            "current": 1000.649,
+            "min": 1000.0,
+            "max": 2401.0
+        },
+        {
+            "current": 1000.087,
+            "min": 1000.0,
+            "max": 2401.0
+        },
+        {
+            "current": 1001.038,
+            "min": 1000.0,
+            "max": 2401.0
+        },
+        {
+            "current": 1000.071,
+            "min": 1000.0,
+            "max": 2401.0
+        }
+    ],
+    "disk": {
+        "total": 17.288352966308594,
+        "used": 13.48690414428711
+    },
+    "gpu": "Quadro RTX 5000",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "Quadro RTX 5000",
+            "memory_total": 16908615680
+        }
+    ],
+    "memory": {
+        "total": 251.56867218017578
+    }
+}

@@ -1,0 +1,35 @@
+2023-01-11 19:06:02,648 INFO    MainThread:18486 [wandb_setup.py:_flush():68] Configure stats pid to 18486
+2023-01-11 19:06:02,648 INFO    MainThread:18486 [wandb_setup.py:_flush():68] Loading settings from /imatge/miriam.elbaz/.config/wandb/settings
+2023-01-11 19:06:02,648 INFO    MainThread:18486 [wandb_setup.py:_flush():68] Loading settings from /mnt/gpid07/imatge/miriam.elbaz/workspace/wandb/settings
+2023-01-11 19:06:02,649 WARNING MainThread:18486 [wandb_setup.py:_flush():68] Unknown environment variable: WANDB_SERVICE
+2023-01-11 19:06:02,649 INFO    MainThread:18486 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-01-11 19:06:02,649 INFO    MainThread:18486 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'yolov5/train.py', 'program': '/mnt/gpid07/imatge/miriam.elbaz/workspace/yolov5/train.py'}
+2023-01-11 19:06:02,649 INFO    MainThread:18486 [wandb_setup.py:_flush():68] Applying login settings: {'login_timeout': 30}
+2023-01-11 19:06:02,649 INFO    MainThread:18486 [wandb_init.py:_log_setup():476] Logging user logs to /mnt/gpid07/imatge/miriam.elbaz/workspace/wandb/run-20230111_190602-3kz6ri0n/logs/debug.log
+2023-01-11 19:06:02,649 INFO    MainThread:18486 [wandb_init.py:_log_setup():477] Logging internal logs to /mnt/gpid07/imatge/miriam.elbaz/workspace/wandb/run-20230111_190602-3kz6ri0n/logs/debug-internal.log
+2023-01-11 19:06:02,649 INFO    MainThread:18486 [wandb_init.py:init():516] calling init triggers
+2023-01-11 19:06:02,649 INFO    MainThread:18486 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {'weights': 'yolov5m.pt', 'cfg': '/mnt/gpid07/imatge/miriam.elbaz/workspace/yolov5/models/yolov5l.yaml', 'data': 'people_data.yaml', 'hyp': {'lr0': 0.01, 'lrf': 0.1, 'momentum': 0.937, 'weight_decay': 0.0005, 'warmup_epochs': 3.0, 'warmup_momentum': 0.8, 'warmup_bias_lr': 0.1, 'box': 0.05, 'cls': 0.3, 'cls_pw': 1.0, 'obj': 0.7, 'obj_pw': 1.0, 'iou_t': 0.2, 'anchor_t': 4.0, 'fl_gamma': 0.0, 'hsv_h': 0.015, 'hsv_s': 0.7, 'hsv_v': 0.4, 'degrees': 0.0, 'translate': 0.1, 'scale': 0.9, 'shear': 0.0, 'perspective': 0.0, 'flipud': 0.0, 'fliplr': 0.5, 'mosaic': 1.0, 'mixup': 0.1, 'copy_paste': 0.0}, 'epochs': 150, 'batch_size': 24, 'imgsz': 640, 'rect': False, 'resume': False, 'nosave': False, 'noval': False, 'noautoanchor': False, 'noplots': False, 'evolve': None, 'bucket': '', 'cache': None, 'image_weights': False, 'device': '', 'multi_scale': False, 'single_cls': False, 'optimizer': 'SGD', 'sync_bn': False, 'workers': 4, 'project': 'yolov5/runs/train', 'name': 'people_det', 'exist_ok': False, 'quad': False, 'cos_lr': False, 'label_smoothing': 0.0, 'patience': 100, 'freeze': [0], 'save_period': -1, 'seed': 0, 'local_rank': -1, 'entity': None, 'upload_dataset': False, 'bbox_interval': -1, 'artifact_alias': 'latest', 'save_dir': 'yolov5/runs/train/people_det23'}
+2023-01-11 19:06:02,649 INFO    MainThread:18486 [wandb_init.py:init():569] starting backend
+2023-01-11 19:06:02,650 INFO    MainThread:18486 [wandb_init.py:init():573] setting up manager
+2023-01-11 19:06:02,653 INFO    MainThread:18486 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-01-11 19:06:02,658 INFO    MainThread:18486 [wandb_init.py:init():580] backend started and connected
+2023-01-11 19:06:02,662 INFO    MainThread:18486 [wandb_init.py:init():658] updated telemetry
+2023-01-11 19:06:02,663 INFO    MainThread:18486 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2023-01-11 19:06:03,244 INFO    MainThread:18486 [wandb_run.py:_on_init():2006] communicating current version
+2023-01-11 19:06:03,334 INFO    MainThread:18486 [wandb_run.py:_on_init():2010] got version response upgrade_message: "wandb version 0.13.8 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-01-11 19:06:03,334 INFO    MainThread:18486 [wandb_init.py:init():728] starting run threads in backend
+2023-01-11 19:06:03,416 INFO    MainThread:18486 [wandb_run.py:_console_start():1986] atexit reg
+2023-01-11 19:06:03,416 INFO    MainThread:18486 [wandb_run.py:_redirect():1844] redirect: SettingsConsole.WRAP_RAW
+2023-01-11 19:06:03,416 INFO    MainThread:18486 [wandb_run.py:_redirect():1909] Wrapping output streams.
+2023-01-11 19:06:03,417 INFO    MainThread:18486 [wandb_run.py:_redirect():1931] Redirects installed.
+2023-01-11 19:06:03,417 INFO    MainThread:18486 [wandb_init.py:init():765] run started, returning control to user process
+2023-01-11 19:06:03,425 INFO    MainThread:18486 [wandb_run.py:_config_callback():1163] config_cb None None {'data_dict': {'train': '/home/usuaris/imatge/miriam.elbaz/workspace/Dataset/images/train', 'val': '/home/usuaris/imatge/miriam.elbaz/workspace/Dataset/images/val', 'test': '/home/usuaris/imatge/miriam.elbaz/workspace/Dataset/images/test', 'nc': 3, 'names': {0: 'Bike', 1: 'E-scooter', 2: 'Pedestrian'}, 'path': '/mnt/gpid07/imatge/miriam.elbaz/workspace/yolov5'}}
+2023-01-12 00:12:28,928 INFO    MainThread:18486 [wandb_run.py:_finish():1753] finishing run tfg-imatge/train/3kz6ri0n
+2023-01-12 00:12:28,929 INFO    MainThread:18486 [wandb_run.py:_atexit_cleanup():1955] got exitcode: 0
+2023-01-12 00:12:28,930 INFO    MainThread:18486 [wandb_run.py:_restore():1938] restore
+2023-01-12 00:12:28,930 INFO    MainThread:18486 [wandb_run.py:_restore():1944] restore done
+2023-01-12 00:12:39,473 INFO    MainThread:18486 [wandb_run.py:_footer_history_summary_info():3408] rendering history
+2023-01-12 00:12:39,475 INFO    MainThread:18486 [wandb_run.py:_footer_history_summary_info():3440] rendering summary
+2023-01-12 00:12:39,482 INFO    MainThread:18486 [wandb_run.py:_footer_sync_info():3364] logging synced files

@@ -1,0 +1,2 @@
+results =         xmin       ymin      xmax        ymax  confidence  class    name
+0  49.693623  92.766258  87.16922  185.011292    0.694963      0  person
